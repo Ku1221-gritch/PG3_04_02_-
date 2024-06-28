@@ -12,7 +12,7 @@ public:
 		if (num1 < num2) {
 			return static_cast<T1>(num1);
 		}
-		else if(num1 > num2){
+		else{
 			return static_cast<T1>(num2);
 		}
 	}
